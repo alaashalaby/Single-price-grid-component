@@ -6,5 +6,5 @@
 
 - [Code](https://github.com/alaashalaby/Single-price-grid-component/blob/main/index.html)
 
-![]()![Design](https://user-images.githubusercontent.com/80048047/209483646-304ed966-661b-4659-9c94-946ba6ad14bd.jpg)
+![Design](https://user-images.githubusercontent.com/80048047/209483714-46254884-fb83-4884-9ee7-aaecbf98b0c3.png)
 
