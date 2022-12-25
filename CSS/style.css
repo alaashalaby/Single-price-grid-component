@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500&family=Karla:wght@400;700&family=Outfit:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cyan-bg {
+    background-color: hsl(179, 62%, 43%);
+}
+.greyish-blue-bg{
+    background-color: hsl(179, 47%, 52%);
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.d-flex{
+    display: flex;
+}
+section {
+    padding: 35px;
+}
+h1 {
+    color: hsl(179, 62%, 43%);
+    font-size: 40px;
+}
+h2 {
+    color: hsl(71, 73%, 54%);
+}
+p {
+    font-size: 18px;
+}
+main{
+    background-color: #fff;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 10px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    margin: 20px 15px;
+}
+main .head h1{
+    padding-bottom: 20px;
+}
+main .head h2 {
+    padding-bottom: 15px;
+}
+main .head p{
+    color:hsl(218, 21%, 78%);
+    line-height: 1.5;
+}
+.row > section{
+    flex: 1;
+}
+.description h3,
+.list h3{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.description p.text{
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+}
+.description p.text span.price{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+.description p.text span.custom-span {
+    color: hsl(204, 43%, 93%);
+    display: inline-block;
+    font-weight: 400;
+}
+.description p.para{
+    color: #fff;
+    font-size: 17px;
+}
+.description a.btn{
+    background-color: hsl(71, 73%, 54%);
+    color: #fff;
+    display: block;
+    padding: 15px 0;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+.list ul{
+    opacity: 0.7;
+
+}
+.list ul li{
+    color: #fff;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+/*============== Media Query ============*/
+
+@media screen and (max-width:600px) {
+    .row {
+        flex-direction: column;
+    }
+    main .head h1{
+        font-size: 27px;
+    }
+    main .head h2 {
+        font-size: 20px;
+    }
+    main .head p {
+        font-size: 16px;
+    }
+}
